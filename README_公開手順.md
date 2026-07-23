@@ -13,7 +13,7 @@
 
 画像は `src` フォルダに入っています。
 
-- ロゴ：`src/logo.png`
+- ロゴ：ヘッダー内のテキスト表示（屋号を変える場合はHTML内の「青葉歯科クリニック」を置換）
 - メイン画像：`src/fv.jpg`
 - 院長・説明画像：`src/profile.jpg`
 - 診療イメージ：`src/case-1.jpg` から `src/case-3.jpg`
@@ -76,4 +76,3 @@
 お問い合わせページには `ZOROYA:CONTACTFORM` の差し込み枠があります。WordPress移行後は、Fluent Formsなどのフォームショートコードに置き換えてください。
 
 ブログ下書きは `blog/` に入っています。WordPressへ移行したあと、内容を確認してから公開してください。
-

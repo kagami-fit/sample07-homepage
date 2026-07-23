@@ -101,7 +101,7 @@
 
 ## 8. 画像リスト
 
-- `src/logo.png`：横長ロゴ
+- ヘッダーロゴ：画像ではなくHTMLテキストで屋号を表示
 - `src/fv.jpg`：ファーストビュー
 - `src/profile.jpg`：院長・説明イメージ
 - `src/badge-1.png`：歯科医師

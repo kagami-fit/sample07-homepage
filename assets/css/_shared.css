@@ -39,7 +39,9 @@
     .hd-topbar .right{display:flex; gap:18px; align-items:center;}
     .hd-topbar .tel{font-family:"Space Grotesk",monospace; color:#fff; font-weight:700;}
     .hd-main{width:min(1280px,calc(100% - 48px)); margin:0 auto; display:grid; grid-template-columns:auto 1fr auto; align-items:center; padding:12px 0; gap:24px;}
-    .hd-logo img{height:50px; width:auto;}
+    .hd-logo{display:inline-flex; align-items:center; gap:10px; color:var(--ink); white-space:nowrap;}
+    .hd-logo .brand-mark{display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; border:2px solid var(--main); border-radius:50%; color:var(--main); font-family:"Space Grotesk",sans-serif; font-weight:900; font-size:11px; letter-spacing:.08em;}
+    .hd-logo .brand-text{font-family:"Shippori Mincho",serif; font-weight:800; font-size:clamp(17px,1.8vw,23px); letter-spacing:.04em;}
     .hd-nav{display:flex; justify-content:center; gap:6px; flex-wrap:wrap;}
     .hd-nav a{padding:9px 13px; font-size:14px; font-weight:500; color:var(--ink); border-radius:6px;}
     .hd-nav a:hover{background:var(--soft); color:var(--main);}
